@@ -79,6 +79,80 @@ section#arquitetos{
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    
 }
 
+div.textos{
+    text-align: center ;
+    margin-top: 250px;
+    margin-left: 20px;
+}
+
+div.textos h1{
+    padding: 20px;
+}
+div.textos p{
+    text-align: justify;
+    margin-left: 80px;
+}
+   
+div.foto{
+    background-image: url(imagens/interiores.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*--------------------------------------------------------*/
+
+section#formulario{
+    background-color: #303030;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+h1#titulo-formulario{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+input {
+    margin-top: 0px;
+    width: 350px;
+    height: 50px;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    background-color: #C07212;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border: 0px;
+    border-radius: 8px;
+    margin: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #eb9e41;
+    color: white;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #00000061;
+
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
+}
