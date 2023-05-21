@@ -145,8 +145,10 @@ button:hover{
 
 }
 footer{
+    background-color: #c0721284;
+    color: black;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 footer a{
     text-decoration: none;
